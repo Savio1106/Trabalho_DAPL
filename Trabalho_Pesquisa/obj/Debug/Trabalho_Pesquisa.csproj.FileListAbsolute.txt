@@ -1,0 +1,11 @@
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\bin\Debug\Trabalho_Pesquisa.exe.config
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\bin\Debug\Trabalho_Pesquisa.exe
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\bin\Debug\Trabalho_Pesquisa.pdb
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.Login.resources
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.Properties.Resources.resources
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.csproj.GenerateResource.cache
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.exe
+C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.pdb
