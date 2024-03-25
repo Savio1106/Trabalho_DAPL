@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Security.Cryptography;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,8 +26,19 @@ namespace Trabalho_Pesquisa
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string text = username.Text;
-            MessageBox.Show("You entered : " + text);
+
+            SHA512 sha512 = SHA512.Create();
+
+            string username = txtUsername.Text;
+
+            string senha = txtSenha.Text;
+
+            //Variável Senha criptografada
+            byte[] bytes = Encoding.UTF8.GetBytes(senha);
+            byte[] hash = sha512.ComputeHash(bytes);
+            string senhaCript = Convert.ToBase64String(hash);
+
+            MessageBox.Show($"Username {username} \r\nSenha criptografada {senhaCript}");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

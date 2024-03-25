@@ -30,8 +30,8 @@
         {
             this.avancar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.username = new System.Windows.Forms.TextBox();
-            this.senha = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -39,9 +39,9 @@
             // 
             this.avancar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.avancar.Location = new System.Drawing.Point(12, 128);
+            this.avancar.Location = new System.Drawing.Point(12, 238);
             this.avancar.Name = "avancar";
-            this.avancar.Size = new System.Drawing.Size(153, 26);
+            this.avancar.Size = new System.Drawing.Size(184, 26);
             this.avancar.TabIndex = 0;
             this.avancar.Text = "Próximo";
             this.avancar.UseVisualStyleBackColor = true;
@@ -56,24 +56,24 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Username:";
             // 
-            // username
+            // txtUsername
             // 
-            this.username.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.username.Location = new System.Drawing.Point(12, 25);
-            this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(153, 20);
-            this.username.TabIndex = 2;
-            this.username.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtUsername.Location = new System.Drawing.Point(12, 25);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(184, 20);
+            this.txtUsername.TabIndex = 2;
+            this.txtUsername.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // senha
+            // txtSenha
             // 
-            this.senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtSenha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.senha.Location = new System.Drawing.Point(12, 64);
-            this.senha.Name = "senha";
-            this.senha.Size = new System.Drawing.Size(153, 20);
-            this.senha.TabIndex = 3;
+            this.txtSenha.Location = new System.Drawing.Point(12, 64);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(184, 20);
+            this.txtSenha.TabIndex = 3;
             // 
             // label2
             // 
@@ -89,10 +89,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(177, 166);
+            this.ClientSize = new System.Drawing.Size(208, 276);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.senha);
-            this.Controls.Add(this.username);
+            this.Controls.Add(this.txtSenha);
+            this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.avancar);
             this.Name = "Login";
@@ -107,8 +107,8 @@
 
         private System.Windows.Forms.Button avancar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox username;
-        private System.Windows.Forms.TextBox senha;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Label label2;
     }
 }
