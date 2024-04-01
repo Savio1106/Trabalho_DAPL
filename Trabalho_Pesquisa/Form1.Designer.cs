@@ -33,6 +33,7 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnjanelaCriarConta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // avancar
@@ -84,19 +85,32 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Senha:";
             // 
+            // btnjanelaCriarConta
+            // 
+            this.btnjanelaCriarConta.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnjanelaCriarConta.Location = new System.Drawing.Point(12, 206);
+            this.btnjanelaCriarConta.Name = "btnjanelaCriarConta";
+            this.btnjanelaCriarConta.Size = new System.Drawing.Size(184, 26);
+            this.btnjanelaCriarConta.TabIndex = 5;
+            this.btnjanelaCriarConta.Text = "Nova Conta";
+            this.btnjanelaCriarConta.UseVisualStyleBackColor = true;
+            this.btnjanelaCriarConta.Click += new System.EventHandler(this.btnjanelaCriarConta_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(208, 276);
+            this.Controls.Add(this.btnjanelaCriarConta);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.avancar);
             this.Name = "Login";
-            this.Text = "Login";
+            this.Text = "Sign Up";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -110,6 +124,7 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnjanelaCriarConta;
     }
 }
 

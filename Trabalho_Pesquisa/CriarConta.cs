@@ -1,35 +1,36 @@
 ﻿using System;
-using System.IO;
-using System.Security.Cryptography;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
 
 namespace Trabalho_Pesquisa
 {
-    public partial class Login : Form
+    public partial class CriarConta : Form
     {
-        Thread nt;
-
-        public Login()
+        public CriarConta()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void avancar_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void avancar_Click_1(object sender, EventArgs e)
+        {
             SHA512 sha512 = SHA512.Create();
 
             string username = txtUsername.Text;
@@ -41,30 +42,11 @@ namespace Trabalho_Pesquisa
             byte[] hash = sha512.ComputeHash(bytes);
             string senhaCript = Convert.ToBase64String(hash);
 
-            //MessageBox.Show($"Username {username} \r\nSenha criptografada {senhaCript}");
+            //Arquivo Conta
             StreamWriter sw = new StreamWriter($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt");
             sw.WriteLine(senhaCript);
             sw.Close();
-            MessageBox.Show($"Conta Criada \r\n{senhaCript}");
-            
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnjanelaCriarConta_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            nt = new Thread(CriarConta);
-            nt.SetApartmentState(ApartmentState.STA);
-            nt.Start();
-        }
-
-        private void CriarConta()
-        {
-            Application.Run(new CriarConta());
+            MessageBox.Show("Nova Conta Criada");
         }
     }
 }

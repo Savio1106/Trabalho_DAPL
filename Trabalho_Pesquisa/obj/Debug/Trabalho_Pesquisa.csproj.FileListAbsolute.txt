@@ -9,3 +9,14 @@ C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabal
 C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.exe
 C:\Users\Aluno\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.pdb
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\bin\Debug\Trabalho_Pesquisa.exe.config
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\bin\Debug\Trabalho_Pesquisa.exe
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\bin\Debug\Trabalho_Pesquisa.pdb
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.csproj.AssemblyReference.cache
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.Login.resources
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.Properties.Resources.resources
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.csproj.GenerateResource.cache
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.exe
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.pdb
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.CriarConta.resources
