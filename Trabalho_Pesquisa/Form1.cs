@@ -10,13 +10,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Trabalho_Pesquisa
 {
     public partial class Login : Form
     {
         Thread nt;
-
         public Login()
         {
             InitializeComponent();
@@ -26,30 +26,38 @@ namespace Trabalho_Pesquisa
         {
 
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
-            SHA512 sha512 = SHA512.Create();
+            bool senhaCerta = false;
 
             string username = txtUsername.Text;
 
             string senha = txtSenha.Text;
 
-            //Variável Senha criptografada
+            SHA512 sha512 = SHA512.Create();
             byte[] bytes = Encoding.UTF8.GetBytes(senha);
             byte[] hash = sha512.ComputeHash(bytes);
             string senhaCript = Convert.ToBase64String(hash);
 
-            //MessageBox.Show($"Username {username} \r\nSenha criptografada {senhaCript}");
-            StreamWriter sw = new StreamWriter($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt");
-            sw.WriteLine(senhaCript);
-            sw.Close();
-            MessageBox.Show($"Conta Criada \r\n{senhaCript}");
-            
-        }
+            string senhaArmazenada = LerSenhaCriptografada($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt");
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+            if (File.Exists($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt"))
+            {
+                //(senhaCript == senhaArmazenada);
+                    if (string.Equals(senhaCript, senhaArmazenada))
+                    {
+                        MessageBox.Show(senhaCript);
+                        MessageBox.Show(senhaArmazenada);
+                        senhaCerta = true;
+                    }
+            } 
+            if (senhaCerta == false)
+            {
+                MessageBox.Show("Nome de usuário ou senha incorretos");
+            }
+            }
+
+            private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -65,6 +73,22 @@ namespace Trabalho_Pesquisa
         private void CriarConta()
         {
             Application.Run(new CriarConta());
+        }
+        static string LerSenhaCriptografada(string nomeArquivo)
+        {
+            try
+            {
+                // Ler a senha criptografada do arquivo
+                using (StreamReader sr = new StreamReader(nomeArquivo))
+                {
+                    return sr.ReadLine();
+                }
+            }
+            catch (Exception ex)
+            {
+              //  MessageBox.Show("Nome de usuário ou senha incorretos");
+                return null;
+            }
         }
     }
 }

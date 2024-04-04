@@ -33,6 +33,7 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.avancar = new System.Windows.Forms.Button();
+            this.btnjanelaSignUp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -48,19 +49,20 @@
             // 
             this.txtSenha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSenha.Location = new System.Drawing.Point(3, 61);
+            this.txtSenha.Location = new System.Drawing.Point(6, 61);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(184, 20);
+            this.txtSenha.Size = new System.Drawing.Size(180, 20);
             this.txtSenha.TabIndex = 9;
             // 
             // txtUsername
             // 
             this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUsername.Location = new System.Drawing.Point(3, 22);
+            this.txtUsername.Location = new System.Drawing.Point(6, 22);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(184, 20);
+            this.txtUsername.Size = new System.Drawing.Size(180, 20);
             this.txtUsername.TabIndex = 8;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // label1
             // 
@@ -77,18 +79,31 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.avancar.Location = new System.Drawing.Point(3, 235);
             this.avancar.Name = "avancar";
-            this.avancar.Size = new System.Drawing.Size(184, 26);
+            this.avancar.Size = new System.Drawing.Size(183, 26);
             this.avancar.TabIndex = 6;
             this.avancar.Text = "Próximo";
             this.avancar.UseVisualStyleBackColor = true;
             this.avancar.Click += new System.EventHandler(this.avancar_Click_1);
+            // 
+            // btnjanelaSignUp
+            // 
+            this.btnjanelaSignUp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnjanelaSignUp.Location = new System.Drawing.Point(3, 203);
+            this.btnjanelaSignUp.Name = "btnjanelaSignUp";
+            this.btnjanelaSignUp.Size = new System.Drawing.Size(183, 26);
+            this.btnjanelaSignUp.TabIndex = 11;
+            this.btnjanelaSignUp.Text = "Sign Up";
+            this.btnjanelaSignUp.UseVisualStyleBackColor = true;
+            this.btnjanelaSignUp.Click += new System.EventHandler(this.btnjanelaSignUp_Click);
             // 
             // CriarConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(191, 266);
+            this.ClientSize = new System.Drawing.Size(190, 266);
+            this.Controls.Add(this.btnjanelaSignUp);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsername);
@@ -108,5 +123,6 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button avancar;
+        private System.Windows.Forms.Button btnjanelaSignUp;
     }
 }
