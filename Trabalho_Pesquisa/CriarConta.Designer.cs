@@ -39,7 +39,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 45);
+            this.label2.Location = new System.Drawing.Point(6, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 10;
@@ -49,25 +49,25 @@
             // 
             this.txtSenha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSenha.Location = new System.Drawing.Point(6, 61);
+            this.txtSenha.Location = new System.Drawing.Point(9, 64);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(180, 20);
+            this.txtSenha.Size = new System.Drawing.Size(176, 20);
             this.txtSenha.TabIndex = 9;
             // 
             // txtUsername
             // 
             this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUsername.Location = new System.Drawing.Point(6, 22);
+            this.txtUsername.Location = new System.Drawing.Point(9, 25);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(180, 20);
+            this.txtUsername.Size = new System.Drawing.Size(176, 20);
             this.txtUsername.TabIndex = 8;
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 6);
+            this.label1.Location = new System.Drawing.Point(6, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 7;
@@ -77,9 +77,9 @@
             // 
             this.avancar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.avancar.Location = new System.Drawing.Point(3, 235);
+            this.avancar.Location = new System.Drawing.Point(9, 257);
             this.avancar.Name = "avancar";
-            this.avancar.Size = new System.Drawing.Size(183, 26);
+            this.avancar.Size = new System.Drawing.Size(176, 26);
             this.avancar.TabIndex = 6;
             this.avancar.Text = "Próximo";
             this.avancar.UseVisualStyleBackColor = true;
@@ -89,9 +89,9 @@
             // 
             this.btnjanelaSignUp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnjanelaSignUp.Location = new System.Drawing.Point(3, 203);
+            this.btnjanelaSignUp.Location = new System.Drawing.Point(9, 225);
             this.btnjanelaSignUp.Name = "btnjanelaSignUp";
-            this.btnjanelaSignUp.Size = new System.Drawing.Size(183, 26);
+            this.btnjanelaSignUp.Size = new System.Drawing.Size(176, 26);
             this.btnjanelaSignUp.TabIndex = 11;
             this.btnjanelaSignUp.Text = "Sign Up";
             this.btnjanelaSignUp.UseVisualStyleBackColor = true;
@@ -102,7 +102,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(190, 266);
+            this.ClientSize = new System.Drawing.Size(197, 295);
             this.Controls.Add(this.btnjanelaSignUp);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSenha);

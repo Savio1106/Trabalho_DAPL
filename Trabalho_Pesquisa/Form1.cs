@@ -17,6 +17,7 @@ namespace Trabalho_Pesquisa
     public partial class Login : Form
     {
         Thread nt;
+        public string username;
         public Login()
         {
             InitializeComponent();
@@ -28,10 +29,9 @@ namespace Trabalho_Pesquisa
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            bool senhaCerta = false;
+            bool senhaCerta = false; //Se a senha e username estiverem certos
 
-            string username = txtUsername.Text;
-
+            username = txtUsername.Text;
             string senha = txtSenha.Text;
 
             SHA512 sha512 = SHA512.Create();
@@ -43,11 +43,9 @@ namespace Trabalho_Pesquisa
 
             if (File.Exists($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt"))
             {
-                //(senhaCript == senhaArmazenada);
                     if (string.Equals(senhaCript, senhaArmazenada))
                     {
-                        MessageBox.Show(senhaCript);
-                        MessageBox.Show(senhaArmazenada);
+                        MessageBox.Show($"Bem vindo, {username}");
                         senhaCerta = true;
                     }
             } 
@@ -55,6 +53,12 @@ namespace Trabalho_Pesquisa
             {
                 MessageBox.Show("Nome de usuário ou senha incorretos");
             }
+
+            if (senhaCerta == true)
+            {
+                
+            }
+
             }
 
             private void textBox1_TextChanged(object sender, EventArgs e)
