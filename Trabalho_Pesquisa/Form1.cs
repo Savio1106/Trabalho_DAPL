@@ -17,7 +17,7 @@ namespace Trabalho_Pesquisa
     public partial class Login : Form
     {
         Thread nt;
-        public string username;
+        static public string username;
         public Login()
         {
             InitializeComponent();
