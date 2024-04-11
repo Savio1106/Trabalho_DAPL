@@ -20,3 +20,4 @@ C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Traba
 C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.exe
 C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.pdb
 C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.CriarConta.resources
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\Debug\Trabalho_Pesquisa.Principal.resources

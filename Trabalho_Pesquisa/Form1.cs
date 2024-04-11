@@ -29,8 +29,6 @@ namespace Trabalho_Pesquisa
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            bool senhaCerta = false; //Se a senha e username estiverem certos
-
             username = txtUsername.Text;
             string senha = txtSenha.Text;
 
@@ -46,21 +44,17 @@ namespace Trabalho_Pesquisa
                     if (string.Equals(senhaCript, senhaArmazenada))
                     {
                         MessageBox.Show($"Bem vindo, {username}");
-                        senhaCerta = true;
-                    }
+                        this.Close();
+                        nt = new Thread(Principal);
+                        nt.SetApartmentState(ApartmentState.STA);
+                        nt.Start();
+                }
             } 
-            if (senhaCerta == false)
-            {
-                MessageBox.Show("Nome de usuário ou senha incorretos");
-            }
-
-            if (senhaCerta == true)
-            {
-                
-            }
+            
+            MessageBox.Show("Nome de usuário ou senha incorretos");
+            
 
             }
-
             private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -77,6 +71,10 @@ namespace Trabalho_Pesquisa
         private void CriarConta()
         {
             Application.Run(new CriarConta());
+        }
+        private void Principal()
+        {
+            Application.Run(new Principal());
         }
         static string LerSenhaCriptografada(string nomeArquivo)
         {

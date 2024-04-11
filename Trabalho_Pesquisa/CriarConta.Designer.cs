@@ -49,18 +49,18 @@
             // 
             this.txtSenha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSenha.Location = new System.Drawing.Point(9, 64);
+            this.txtSenha.Location = new System.Drawing.Point(15, 64);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(176, 20);
+            this.txtSenha.Size = new System.Drawing.Size(187, 20);
             this.txtSenha.TabIndex = 9;
             // 
             // txtUsername
             // 
             this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUsername.Location = new System.Drawing.Point(9, 25);
+            this.txtUsername.Location = new System.Drawing.Point(15, 25);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(176, 20);
+            this.txtUsername.Size = new System.Drawing.Size(187, 20);
             this.txtUsername.TabIndex = 8;
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
@@ -79,7 +79,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.avancar.Location = new System.Drawing.Point(9, 257);
             this.avancar.Name = "avancar";
-            this.avancar.Size = new System.Drawing.Size(176, 26);
+            this.avancar.Size = new System.Drawing.Size(193, 26);
             this.avancar.TabIndex = 6;
             this.avancar.Text = "Próximo";
             this.avancar.UseVisualStyleBackColor = true;
@@ -91,9 +91,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnjanelaSignUp.Location = new System.Drawing.Point(9, 225);
             this.btnjanelaSignUp.Name = "btnjanelaSignUp";
-            this.btnjanelaSignUp.Size = new System.Drawing.Size(176, 26);
+            this.btnjanelaSignUp.Size = new System.Drawing.Size(193, 26);
             this.btnjanelaSignUp.TabIndex = 11;
-            this.btnjanelaSignUp.Text = "Sign Up";
+            this.btnjanelaSignUp.Text = "Login";
             this.btnjanelaSignUp.UseVisualStyleBackColor = true;
             this.btnjanelaSignUp.Click += new System.EventHandler(this.btnjanelaSignUp_Click);
             // 
@@ -102,7 +102,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(197, 295);
+            this.ClientSize = new System.Drawing.Size(214, 295);
             this.Controls.Add(this.btnjanelaSignUp);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSenha);

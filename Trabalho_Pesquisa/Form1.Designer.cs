@@ -51,7 +51,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 1;
@@ -79,7 +79,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 48);
+            this.label2.Location = new System.Drawing.Point(9, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 4;
@@ -93,7 +93,7 @@
             this.btnjanelaCriarConta.Name = "btnjanelaCriarConta";
             this.btnjanelaCriarConta.Size = new System.Drawing.Size(184, 26);
             this.btnjanelaCriarConta.TabIndex = 5;
-            this.btnjanelaCriarConta.Text = "Nova Conta";
+            this.btnjanelaCriarConta.Text = "Criar uma Conta";
             this.btnjanelaCriarConta.UseVisualStyleBackColor = true;
             this.btnjanelaCriarConta.Click += new System.EventHandler(this.btnjanelaCriarConta_Click);
             // 
@@ -110,7 +110,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.avancar);
             this.Name = "Login";
-            this.Text = "Sign Up";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
