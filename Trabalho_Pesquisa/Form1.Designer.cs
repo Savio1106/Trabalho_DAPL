@@ -111,7 +111,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.avancar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(224, 315);
+            this.MinimumSize = new System.Drawing.Size(224, 315);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

@@ -1,0 +1,10 @@
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\bin\x64\Teste\Trabalho_Pesquisa.exe.config
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\bin\x64\Teste\Trabalho_Pesquisa.exe
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\x64\Teste\Trabalho_Pesquisa.csproj.AssemblyReference.cache
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\x64\Teste\Trabalho_Pesquisa.CriarConta.resources
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\x64\Teste\Trabalho_Pesquisa.Login.resources
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\x64\Teste\Trabalho_Pesquisa.Principal.resources
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\x64\Teste\Trabalho_Pesquisa.Properties.Resources.resources
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\x64\Teste\Trabalho_Pesquisa.csproj.GenerateResource.cache
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\x64\Teste\Trabalho_Pesquisa.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\GitHub\Trabalho_DAPL\Trabalho_Pesquisa\obj\x64\Teste\Trabalho_Pesquisa.exe

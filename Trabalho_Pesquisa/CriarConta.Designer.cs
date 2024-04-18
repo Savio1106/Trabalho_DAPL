@@ -56,7 +56,7 @@
             this.txtSenha.BackColor = System.Drawing.SystemColors.Window;
             this.txtSenha.Location = new System.Drawing.Point(12, 64);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(174, 20);
+            this.txtSenha.Size = new System.Drawing.Size(184, 20);
             this.txtSenha.TabIndex = 9;
             // 
             // txtUsername
@@ -66,7 +66,7 @@
             this.txtUsername.BackColor = System.Drawing.SystemColors.Window;
             this.txtUsername.Location = new System.Drawing.Point(12, 25);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(174, 20);
+            this.txtUsername.Size = new System.Drawing.Size(184, 20);
             this.txtUsername.TabIndex = 8;
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
@@ -86,9 +86,9 @@
             // 
             this.avancar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.avancar.Location = new System.Drawing.Point(9, 257);
+            this.avancar.Location = new System.Drawing.Point(12, 238);
             this.avancar.Name = "avancar";
-            this.avancar.Size = new System.Drawing.Size(177, 26);
+            this.avancar.Size = new System.Drawing.Size(184, 26);
             this.avancar.TabIndex = 6;
             this.avancar.Text = "Criar esta Conta";
             this.avancar.UseVisualStyleBackColor = true;
@@ -98,9 +98,9 @@
             // 
             this.btnjanelaSignUp.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnjanelaSignUp.Location = new System.Drawing.Point(9, 225);
+            this.btnjanelaSignUp.Location = new System.Drawing.Point(12, 206);
             this.btnjanelaSignUp.Name = "btnjanelaSignUp";
-            this.btnjanelaSignUp.Size = new System.Drawing.Size(177, 26);
+            this.btnjanelaSignUp.Size = new System.Drawing.Size(184, 26);
             this.btnjanelaSignUp.TabIndex = 11;
             this.btnjanelaSignUp.Text = "Login";
             this.btnjanelaSignUp.UseVisualStyleBackColor = true;
@@ -111,7 +111,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(198, 295);
+            this.ClientSize = new System.Drawing.Size(208, 276);
             this.Controls.Add(this.btnjanelaSignUp);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSenha);
@@ -119,7 +119,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.avancar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(224, 315);
+            this.MinimumSize = new System.Drawing.Size(224, 315);
             this.Name = "CriarConta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nova Conta";
             this.Load += new System.EventHandler(this.CriarConta_Load);
             this.ResumeLayout(false);

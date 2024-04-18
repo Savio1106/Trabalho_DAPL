@@ -11,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|c:\\users\\alunos\\documents\\github\\trabalho_dapl\\trabalho_pesquisa\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|c:\\users\\alunos\\documents\\github\\trabalho_dapl\\trabalho_pesquisa\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:Principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|c:\\users\\alunos\\documents\\github\\trabalho_dapl\\trabalho_pesquisa\\criarconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:criarconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +34,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CriarConta.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
+              "RelativeDocumentMoniker": "CriarConta.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
+              "RelativeToolTip": "CriarConta.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAArwDkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:38:13.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
+              "RelativeDocumentMoniker": "Principal.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
+              "RelativeToolTip": "Principal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:36:50.552Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -54,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Principal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
               "RelativeDocumentMoniker": "Principal.cs",
@@ -66,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
