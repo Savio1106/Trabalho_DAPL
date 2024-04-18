@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.avancar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
@@ -44,7 +45,7 @@
             this.avancar.Name = "avancar";
             this.avancar.Size = new System.Drawing.Size(184, 26);
             this.avancar.TabIndex = 0;
-            this.avancar.Text = "Próximo";
+            this.avancar.Text = "Login";
             this.avancar.UseVisualStyleBackColor = true;
             this.avancar.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -109,6 +110,7 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.avancar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Form1_Load);

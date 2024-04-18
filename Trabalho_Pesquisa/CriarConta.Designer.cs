@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CriarConta));
             this.label2 = new System.Windows.Forms.Label();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.txtUsername = new System.Windows.Forms.TextBox();
@@ -38,8 +39,11 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 48);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(9, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 10;
@@ -49,25 +53,30 @@
             // 
             this.txtSenha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSenha.Location = new System.Drawing.Point(15, 64);
+            this.txtSenha.BackColor = System.Drawing.SystemColors.Window;
+            this.txtSenha.Location = new System.Drawing.Point(12, 64);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(187, 20);
+            this.txtSenha.Size = new System.Drawing.Size(174, 20);
             this.txtSenha.TabIndex = 9;
             // 
             // txtUsername
             // 
             this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtUsername.Location = new System.Drawing.Point(15, 25);
+            this.txtUsername.BackColor = System.Drawing.SystemColors.Window;
+            this.txtUsername.Location = new System.Drawing.Point(12, 25);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(187, 20);
+            this.txtUsername.Size = new System.Drawing.Size(174, 20);
             this.txtUsername.TabIndex = 8;
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 9);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 7;
@@ -79,9 +88,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.avancar.Location = new System.Drawing.Point(9, 257);
             this.avancar.Name = "avancar";
-            this.avancar.Size = new System.Drawing.Size(193, 26);
+            this.avancar.Size = new System.Drawing.Size(177, 26);
             this.avancar.TabIndex = 6;
-            this.avancar.Text = "Próximo";
+            this.avancar.Text = "Criar esta Conta";
             this.avancar.UseVisualStyleBackColor = true;
             this.avancar.Click += new System.EventHandler(this.avancar_Click_1);
             // 
@@ -91,7 +100,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnjanelaSignUp.Location = new System.Drawing.Point(9, 225);
             this.btnjanelaSignUp.Name = "btnjanelaSignUp";
-            this.btnjanelaSignUp.Size = new System.Drawing.Size(193, 26);
+            this.btnjanelaSignUp.Size = new System.Drawing.Size(177, 26);
             this.btnjanelaSignUp.TabIndex = 11;
             this.btnjanelaSignUp.Text = "Login";
             this.btnjanelaSignUp.UseVisualStyleBackColor = true;
@@ -101,16 +110,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(214, 295);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(198, 295);
             this.Controls.Add(this.btnjanelaSignUp);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.avancar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CriarConta";
             this.Text = "Nova Conta";
+            this.Load += new System.EventHandler(this.CriarConta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

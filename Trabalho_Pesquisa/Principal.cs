@@ -46,5 +46,10 @@ namespace Trabalho_Pesquisa
                 MessageBox.Show("Histórico de Pesquisa:\r\n" + sr.ReadToEnd());
             }
         }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

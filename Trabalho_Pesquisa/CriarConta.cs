@@ -73,5 +73,10 @@ namespace Trabalho_Pesquisa
         {
             Application.Run(new Login());
         }
+
+        private void CriarConta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
