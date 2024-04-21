@@ -110,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(208, 276);
             this.Controls.Add(this.btnjanelaSignUp);
             this.Controls.Add(this.label2);
@@ -123,7 +123,7 @@
             this.MinimumSize = new System.Drawing.Size(224, 315);
             this.Name = "CriarConta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nova Conta";
+            this.Text = "Criar";
             this.Load += new System.EventHandler(this.CriarConta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

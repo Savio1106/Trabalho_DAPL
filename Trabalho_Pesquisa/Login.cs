@@ -18,6 +18,7 @@ namespace Trabalho_Pesquisa
     {
         Thread nt;
         static public string username;
+        static public string pcUser = Environment.UserName;
         public Login()
         {
             InitializeComponent();
@@ -37,9 +38,9 @@ namespace Trabalho_Pesquisa
             byte[] hash = sha512.ComputeHash(bytes);
             string senhaCript = Convert.ToBase64String(hash);
 
-            string senhaArmazenada = LerSenhaCriptografada($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt");
+            string senhaArmazenada = LerSenhaCriptografada($"C:\\Users\\{pcUser}\\Documents\\Saves NewSearch\\{username}Conta.txt");
 
-            if (File.Exists($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt"))
+            if (File.Exists($"C:\\Users\\{pcUser}\\Documents\\Saves NewSearch\\{username}Conta.txt"))
             {
                     if (string.Equals(senhaCript, senhaArmazenada))
                     {
@@ -91,6 +92,11 @@ namespace Trabalho_Pesquisa
               //  MessageBox.Show("Nome de usuário ou senha incorretos");
                 return null;
             }
+        }
+
+        private void txtSenha_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
