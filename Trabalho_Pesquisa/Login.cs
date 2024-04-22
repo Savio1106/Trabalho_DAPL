@@ -26,7 +26,11 @@ namespace Trabalho_Pesquisa
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //Cria a pasta Saves NewSearch se ela ainda não existe
+            if (!File.Exists($"C:\\Users\\{pcUser}\\Documents\\Saves NewSearch\\{username}Conta.txt"))
+            {
+                System.IO.Directory.CreateDirectory($"C:\\Users\\{pcUser}\\Documents\\Saves NewSearch");
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {

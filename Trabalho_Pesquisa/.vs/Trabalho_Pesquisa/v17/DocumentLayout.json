@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|c:\\users\\alunos\\documents\\github\\trabalho_dapl\\trabalho_pesquisa\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:CriarConta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:CriarConta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:Principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|c:\\users\\alunos\\documents\\github\\trabalho_dapl\\trabalho_pesquisa\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|solutionrelative:CriarConta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D00987A-5817-4F95-BD7A-235FE9A46FE8}|Trabalho_Pesquisa.csproj|C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,57 +38,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T18:27:36.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAAwGYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T21:19:43.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CriarConta.cs",
-              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
-              "RelativeDocumentMoniker": "CriarConta.cs",
-              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
-              "RelativeToolTip": "CriarConta.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:10:35.952Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CriarConta.cs",
-              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
-              "RelativeDocumentMoniker": "CriarConta.cs",
-              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
-              "RelativeToolTip": "CriarConta.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAwFMAAAAAAAAA",
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:38:13.265Z"
+              "WhenOpened": "2024-04-15T18:27:36.971Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T21:19:43.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CriarConta.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
+              "RelativeDocumentMoniker": "CriarConta.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs [Design]",
+              "RelativeToolTip": "CriarConta.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:10:35.952Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CriarConta.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
+              "RelativeDocumentMoniker": "CriarConta.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\CriarConta.cs",
+              "RelativeToolTip": "CriarConta.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T18:38:13.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Principal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
               "RelativeDocumentMoniker": "Principal.cs",
@@ -100,15 +104,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Principal.cs",
               "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
               "RelativeDocumentMoniker": "Principal.cs",
               "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
               "RelativeToolTip": "Principal.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAADwv0gAAAAMAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwB4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T18:36:50.552Z"
+              "WhenOpened": "2024-04-18T18:36:50.552Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
