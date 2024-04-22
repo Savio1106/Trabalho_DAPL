@@ -18,6 +18,7 @@ namespace Trabalho_Pesquisa
     {
         Thread nt;
         static public string username;
+        static public string pcUser = Environment.UserName; //Environment.UserName pega o usuário logado no computador
         public Login()
         {
             InitializeComponent();
@@ -32,16 +33,17 @@ namespace Trabalho_Pesquisa
             username = txtUsername.Text;
             string senha = txtSenha.Text;
 
+            //Converte a senha do campo senha para hash
             SHA512 sha512 = SHA512.Create();
             byte[] bytes = Encoding.UTF8.GetBytes(senha);
             byte[] hash = sha512.ComputeHash(bytes);
             string senhaCript = Convert.ToBase64String(hash);
 
-            string senhaArmazenada = LerSenhaCriptografada($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt");
+            string senhaArmazenada = LerSenhaCriptografada($"C:\\Users\\{pcUser}\\Documents\\Saves NewSearch\\{username}Conta.txt");
 
-            if (File.Exists($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt"))
+            if (File.Exists($"C:\\Users\\{pcUser}\\Documents\\Saves NewSearch\\{username}Conta.txt")) //Verifica se há uma conta com esse nome...
             {
-                    if (string.Equals(senhaCript, senhaArmazenada))
+                    if (string.Equals(senhaCript, senhaArmazenada)) //...e se o hash salvo nela bate com o hash da senha digitada
                     {
                         MessageBox.Show($"Bem vindo, {username}");
                         this.Close();
@@ -51,7 +53,7 @@ namespace Trabalho_Pesquisa
                 }
             } 
             
-            MessageBox.Show("Nome de usuário ou senha incorretos");
+            MessageBox.Show("Nome de usuário ou senha incorretos"); //Se não, ele não vai deixar o usuário prosseguir
             
 
             }
@@ -88,9 +90,13 @@ namespace Trabalho_Pesquisa
             }
             catch (Exception ex)
             {
-              //  MessageBox.Show("Nome de usuário ou senha incorretos");
                 return null;
             }
+        }
+
+        private void txtSenha_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

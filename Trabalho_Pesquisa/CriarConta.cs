@@ -16,6 +16,7 @@ namespace Trabalho_Pesquisa
     public partial class CriarConta : Form
     {
         Thread nt;
+        static public string pcUser = Environment.UserName;
         public CriarConta()
         {
             InitializeComponent();
@@ -39,15 +40,15 @@ namespace Trabalho_Pesquisa
 
             string senha = txtSenha.Text;
 
-            //Variável Senha criptografada
+            //A senha que o usuário digitou é convertida em um hash
             byte[] bytes = Encoding.UTF8.GetBytes(senha);
             byte[] hash = sha512.ComputeHash(bytes);
             string senhaCript = Convert.ToBase64String(hash);
 
-            if (!File.Exists($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt"))
+            if (!File.Exists($"C:\\Users\\{pcUser}\\Documents\\Saves NewSearch\\{username}Conta.txt")) //Verificar que essa conta já não tá criada
             {
-                //Arquivo Conta
-                StreamWriter sw = new StreamWriter($"C:\\Users\\Alunos\\Documents\\Saves NewSearch\\{username}Conta.txt");
+                //Ele cria um arquivo txt e salva a senha (criptografada)
+                StreamWriter sw = new StreamWriter($"C:\\Users\\{pcUser}\\Documents\\Saves NewSearch\\{username}Conta.txt");
                 sw.WriteLine(senhaCript);
                 sw.Close();
                 MessageBox.Show("Nova Conta Criada");
