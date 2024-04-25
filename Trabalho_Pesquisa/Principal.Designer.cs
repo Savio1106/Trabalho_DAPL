@@ -103,7 +103,8 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Streams",
             "Vídeos",
-            "Steam"});
+            "Steam",
+            "Críticas"});
             this.comboBox1.Location = new System.Drawing.Point(626, 341);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(69, 21);

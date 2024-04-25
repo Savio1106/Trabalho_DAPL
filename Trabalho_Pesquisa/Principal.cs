@@ -51,6 +51,10 @@ namespace Trabalho_Pesquisa
                     //Se ele selecionou "steam", pesquisa o jogo no steam
                     Process.Start("https://store.steampowered.com/search/?term=" + txtPesquisa.Text);
                     break;
+                case 3:
+                    //Se ele selecionou "steam", pesquisa o jogo no steam
+                    Process.Start("https://www.metacritic.com/search/" + txtPesquisa.Text);
+                    break;
                 default:
                     //Se ele não selecionou nada, é jogado um erro
                     MessageBox.Show("Por favor, selecione o que você quer pesquisar");
@@ -95,7 +99,10 @@ namespace Trabalho_Pesquisa
             } else if (comboBox1.SelectedIndex == 2) 
             { 
                 selecao = 2;
-            } 
+            } else if (comboBox1.SelectedIndex == 3)
+            {
+                selecao = 3;
+            }
             
         }
 
