@@ -77,25 +77,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Principal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
-              "RelativeDocumentMoniker": "Principal.cs",
-              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs [Design]",
-              "RelativeToolTip": "Principal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T18:27:38.515Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Principal.cs",
               "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
               "RelativeDocumentMoniker": "Principal.cs",
               "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
               "RelativeToolTip": "Principal.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwB4AAAAbAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T18:36:50.552Z",
               "EditorCaption": ""
@@ -122,6 +110,39 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-01T18:10:42.233Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "bc30bb4e-e993-44a8-a854-a976084e4ac6",
+        "Display": 1,
+        "X": -433,
+        "Y": 163,
+        "Width": 1120,
+        "Height": 693,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Principal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs",
+              "RelativeDocumentMoniker": "Principal.cs",
+              "ToolTip": "C:\\Users\\Alunos\\Documents\\GitHub\\Trabalho_DAPL\\Trabalho_Pesquisa\\Principal.cs [Design]",
+              "RelativeToolTip": "Principal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T18:27:38.515Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
